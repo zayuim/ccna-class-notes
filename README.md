@@ -3,10 +3,10 @@ Some notes that may came in handy with the 'Cisco Certified Network Associate' o
 
 **IP Address**
 
-<addr>
+```
 11000000.10101000.01100100.00011001
 192     .168     .100     .25
-</addr>
+```
 
 Subnet Mask	11111111.11111111.11111111.11110000
             255     .255     .255     .240
@@ -40,7 +40,7 @@ How to work out hosts:
 Host bits are zeros to the right of the subnet mask.
 2^(number of host bits) -2 = Number of hosts.
 
---------Commands--------
+# Commands
 enable > config > hostname  -  add hostname
 
 config > line console 0 > password ... > login > exit  -  add access to console line
@@ -68,7 +68,7 @@ int [whatever] > ipv6 address fe80::2 link-local  -  set link local
 ---Static Route uses its own exit interface---
 (config)# ip route [destination address] [destination subnet mask] [exit interface of current device]
 
---------Resources--------
+# Resources
 http://networkengineering.stackexchange.com/questions/7106/how-do-you-calculate-the-prefix-network-subnet-and-host-numbers
 
 http://www.cisco.com/c/en/us/td/docs/ios/12_2/security/configuration/guide/fsecur_c/scfpass.pdf
