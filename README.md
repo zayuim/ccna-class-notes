@@ -1,11 +1,12 @@
-# ccna-class-notes
+# CCNA Class Notes
 Some notes that may came in handy with the 'Cisco Certified Network Associate' or CCNA course.
 
-IP Address
+**IP Address**
 
+<addr>
 11000000.10101000.01100100.00011001
-            
 192     .168     .100     .25
+</addr>
 
 Subnet Mask	11111111.11111111.11111111.11110000
             255     .255     .255     .240
