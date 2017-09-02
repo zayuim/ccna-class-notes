@@ -1,7 +1,18 @@
 # CCNA Class Notes
 Some notes that might came in handy with the 'Cisco Certified Network Associate' or CCNA course.
 
+WARNING: WORK IN PROGRESS, FORMATTING AND INFORMATION IS ALL VERY POOR!
+
+## Network Basic's
+**TCP vs. UDP**
+
 **Packets**
+
+All data sent to and from any computer or server is formatted and split into into packets. They have structure beginning with the header, this contains information like source and destination network addresses, error detection information and the data itself. There is a difference between TCP and UDP packets, UDP is 
+
+**NAT or Network Address Translation**
+
+
 
 ## IPv4 Basic's
 **IP Address**
@@ -12,8 +23,6 @@ This address is assigned to hosts. A host in computer network theory is simply a
 11000000.10101000.01100100.00011001
 192     .168     .100     .25
 ```
-
-**NAT or Network Address Translation**
 
 **Subnet Mask**
 
@@ -46,16 +55,15 @@ The final address in a subnetwork, It is reserved and cannot be assigned to a ho
 The IP address of the first router interface your computer goes to (never a switch). Basically if your computer goes to a switch and then into router interface g0/1, which the IP is set to 192.168.1.1. That IP is your default gateway, since it's the first router you reach.
 
 **"CIDR notation" or "What does the slash mean?**
+
 The network portion from the left in other words the amount of ones from left to right e.g.
+
 192.168.0.0 /29 =
+
 11111111.11111111.11111111.11111000
 
 Various Subnet Mask Endings:
 128 - 192 - 224 - 240 - 248 - 252 - 254 - 255
-
-Reserved IPs:
-The first address (the network address) cannot be assigned to a host/end point.
-the last address (the broadcast address) cannot be assigned to host/end point.
 
 How to work out hosts:
 Host bits are zeros to the right of the subnet mask.
