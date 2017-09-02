@@ -4,6 +4,11 @@ Some notes that might came in handy with the 'Cisco Certified Network Associate'
 WARNING: WORK IN PROGRESS, FORMATTING AND INFORMATION IS ALL VERY POOR!
 
 ## Network Basic's
+
+**Topology**
+
+**OSI Model**
+
 **TCP vs. UDP**
 
 **Packets**
@@ -65,12 +70,50 @@ The network portion from the left in other words the amount of ones from left to
 Various Subnet Mask Endings:
 128 - 192 - 224 - 240 - 248 - 252 - 254 - 255
 
-How to work out hosts:
+## IPv6 Basic's
+
+...
+
+## Subnet Mathematics
 Host bits are zeros to the right of the subnet mask.
 2^(number of host bits) -2 = Number of hosts.
 
+## Understanding Cisco IOS
+**Normal Mode**
+
+
+
+**Enable Mode**
+
+
+
+**Config Mode**
+
+
+
+
 ## Commands
-enable > config > hostname  -  add hostname
+
+Don't forget to take anything between the square brackets and replace it with actual information that applies to your situation.
+
+**Show Commands**
+
+Used to show certain information set
+
+**Setting Hostname**
+
+Give a name to your router or switch, so you can identify it.
+```
+(config)# hostname [NAME]
+```
+
+**Setting MOTD**
+
+Display a messsage upon login.
+```
+(config)# banner motd
+```
+
 
 config > line console 0 > password ... > login > exit  -  add access to console line
 
@@ -80,7 +123,7 @@ config > enable secret > exit - add password to secure access
 
 config > interface g0/0 or fe0/0 or vlan1 > ip address ... ... > no shut > exit  -  config IP to interface
 
-config > banner motd  -  setup message of the day
+
 
 service password-encryption
 
