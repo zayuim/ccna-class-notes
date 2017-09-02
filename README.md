@@ -3,7 +3,7 @@ Some notes that might came in handy with the 'Cisco Certified Network Associate'
 
 **Packets**
 
-# IPv4 Basic's
+## IPv4 Basic's
 **IP Address**
 
 This address is assigned to hosts. A host in computer network theory is simply an end device, something like a computer or phone. All IPv4 addresses are split up into 4 sections called "octets" these contain 8 bits which can range from (0 - 255). This is sort of like an ID, so that packets can find their way to you.
@@ -61,7 +61,7 @@ How to work out hosts:
 Host bits are zeros to the right of the subnet mask.
 2^(number of host bits) -2 = Number of hosts.
 
-# Commands
+## Commands
 enable > config > hostname  -  add hostname
 
 config > line console 0 > password ... > login > exit  -  add access to console line
