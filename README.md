@@ -9,6 +9,8 @@ WARNING: WORK IN PROGRESS, FORMATTING AND INFORMATION IS ALL VERY POOR!
 
 **OSI Model**
 
+**Binary**
+
 **TCP vs. UDP**
 
 **Packets**
@@ -17,25 +19,44 @@ All data sent to and from any computer or server is formatted and split into int
 
 **NAT or Network Address Translation**
 
+## Devices
 
+**Router**
+
+**Switch**
+
+**Server**
+
+**End-Point**
 
 ## IPv4 Basic's
+
 **IP Address**
 
-This address is assigned to hosts. A host in computer network theory is simply an end device, something like a computer or phone. All IPv4 addresses are split up into 4 sections called "octets" these contain 8 bits which can range from (0 - 255). This is sort of like an ID, so that packets can find their way to you.
+This address is assigned to hosts. A host in computer network theory is simply a device that has an IP assigned to it, anything from a computer, a phone or even a router or router interfaces. All IPv4 addresses are split up into 4 sections called "octets" these contain 8 bits which can range from (0 - 255). This is sort of like an ID, so that packets can find their way to you.
+
+*192.168.100.25* is an example of what one could look like
+
+**Subnet Mask**
+
+This mask is what we use to devide different networks. The 1's represent the network portion, while the 0's represent the host portion. If you take the binary from subnet mask and the IP and place them vertically, this help it make more sense. If a number 
+```
+11111111.11111111.11111111.11110000
+255     .255     .255     .240
+```
+
+**Network Portion and Host Portion**
+
+This is the most important thing you need to understand
 
 ```
 11000000.10101000.01100100.00011001
 192     .168     .100     .25
 ```
 
-**Subnet Mask**
+**IP Classes**
 
-This mask is what we use to devide different networks
-```
-11111111.11111111.11111111.11110000
-255     .255     .255     .240
-```
+There are IP addresses reserved for private use by internal networks (such as your home and office). These address ranges CANNOT be used on the public 
 
 **Network Address**
 
@@ -67,8 +88,7 @@ The network portion from the left in other words the amount of ones from left to
 
 11111111.11111111.11111111.11111000
 
-Various Subnet Mask Endings:
-128 - 192 - 224 - 240 - 248 - 252 - 254 - 255
+
 
 ## IPv6 Basic's
 
