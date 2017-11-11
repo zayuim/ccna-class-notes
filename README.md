@@ -6,6 +6,7 @@ WARNING: WORK IN PROGRESS, FORMATTING AND INFORMATION IS ALL VERY POOR!
 ## Network Basic's
 
 **Topology**
+A visual representation/map of a network, shows end-devices, routers, switches and firewalls. 
 
 **OSI Model**
 
